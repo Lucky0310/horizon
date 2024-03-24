@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HORIZONME</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="banner">
+        <div class="banner_box">
+            <h1>HORIZON<span style="color: red;">ME</span></h1>
+        </div>
+        <div>
+            <!-- Your logo here -->
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="services.html" style="color: black;">Technical Experience</a>
+                                <a class="dropdown-item" href="project.html" style="color: black;">Project Development</a>
+                                <a class="dropdown-item" href="consultation.html" style="color: black;">Consultation</a>
+                                <a class="dropdown-item" href="references.html" style="color: black;">References</a>
+                                <a class="dropdown-item" href="designing.html" style="color: black;">Designing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="partners.html">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="openContactPopup()">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Transparent overlay -->
+    <div id="contact-overlay"></div>
+
+    <!-- Contact popup -->
+    <div id="contact-popup">
+        <h2>Contact Details</h2>
+        <p><i class="fa fa-phone"></i> +966 53 954 8824</p>
+        <p><i class="fa fa-phone"></i> +966 50 590 0738</p>
+        <p><i class="fa fa-envelope"></i> md@ hme-consult.com</p>
+        <p><i class="fa fa-globe"></i> <a href="www.hme-consult.com" target="_blank">www.hme-consult.com</a></p>
+        <button onclick="closeContactPopup()">Close</button>
+    </div>
+
+    <main class="main_section">
+        <div class="custom-div paragraph-row">
+            <h2 id="strategy_section"><span style="margin-left: 5px;">HORIZONME PROJECT DEVELOPMENT</span></h2>
+        </div>
+        <br>
+        <div>
+            <h5>Experienced team (more than 30 years each as ex Aramco and SABIC)</h5>
+            <ul>
+                <li><i class="fa fa-caret-right"></i> Preparation & evaluation of Industrial Investment Opportunities
+                </li>
+                <li><i class="fa fa-caret-right"></i> Preliminary Technical & Feasibility Studies</li>
+                <li><i class="fa fa-caret-right"></i> Detailed Technical & Feasibility Studies</li>
+                <li><i class="fa fa-caret-right"></i> Development of Industrial Projects in an Integrated Manner</li>
+                <li><i class="fa fa-caret-right"></i> Development of Strategic Partnerships</li>
+                <li><i class="fa fa-caret-right"></i> Supervising & Management the Implementation of Industrial Projects
+                </li>
+                <li><i class="fa fa-caret-right"></i> Trade actions for the targeted project products</li>
+            </ul>
+            <div >
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Engineering and Design Consultation Services & Support:</h5>
+                        <ul>
+                            <li><i class="fa fa-caret-right"></i> Process Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Piping Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Mechanical Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> HVAC Engineering & Design</li>
+                            <li><i class="fa fa-caret-right"></i> Civil and Structural Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Electrical Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Instrumentation Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Engineering Studies</li>
+                            <li><i class="fa fa-caret-right"></i> Project Value Improvement Studies</li>
+                            <li><i class="fa fa-caret-right"></i> Communication Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Architect Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting Engineering</li>
+                            <li><i class="fa fa-caret-right"></i> Interface Management Engineerings</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-container">
+                            <img src="images/project.png" alt="Your Image">
+                            <div class="image-border"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>        
+        <div style="text-align:justify">
+            <p>HORIZONME offers its services for the industrial projects development in an integrated manner
+                from providing industrial investment opportunities appropriate to the market needs, through the
+                developing of feasibility studies (Marketing, Technical and Financial Study), further HORIZONME
+                can oversee the project implementation stage or fully project implementation in turnkey approach.</p>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Project Development Process</h5>
+                    <div class="image-container">
+                        <img src="images/dev.png" alt="Your Image">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Support in solving critical Issues faced by investors in KSA</h5>
+                        <ul>
+                            <li><i class="fa fa-caret-right"></i> Lack of clarity on the path forward for the many investment ideas</li>
+                            <li><i class="fa fa-caret-right"></i> Difficulty converting opportunities to feasible business cases</li>
+                            <li><i class="fa fa-caret-right"></i> Limited access to funding, especially for SMEs</li>
+                            <li><i class="fa fa-caret-right"></i> Shortage of capabilities to execute and operate productively</li>
+                            <li><i class="fa fa-caret-right"></i> Need for better co-ordination across the multiple government and private agencies
+                                involved in enabling Vision 2030</li>
+                            <li><i class="fa fa-caret-right"></i> Limited focus on total cost competitiveness which may lead to development of an
+                                unsustainable industry</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <div id="footer">
+        <p>&copy; 2023 HORIZONME. All rights reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/6a1712e8fa.js" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

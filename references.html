@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>HORIZONME</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="banner">
+    <div class="banner_box">
+      <h1>HORIZON<span style="color: red;">ME</span></h1>
+    </div>
+    <div>
+      <!-- Your logo here -->
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="services.html" style="color: black;">Technical Experience</a>
+                      <a class="dropdown-item" href="project.html" style="color: black;">Project Development</a>
+                      <a class="dropdown-item" href="consultation.html" style="color: black;">Consultation</a>
+                      <a class="dropdown-item" href="references.html" style="color: black;">References</a>
+                      <a class="dropdown-item" href="designing.html" style="color: black;">Designing</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partners.html">Partners</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="openContactPopup()">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+  </div>
+  <!-- Transparent overlay -->
+  <div id="contact-overlay"></div>
+
+  <!-- Contact popup -->
+  <div id="contact-popup">
+    <h2>Contact Details</h2>
+    <p><i class="fa fa-phone"></i> +966 53 954 8824</p>
+    <p><i class="fa fa-phone"></i> +966 50 590 0738</p>
+    <p><i class="fa fa-envelope"></i> md@ hme-consult.com</p>
+    <p><i class="fa fa-globe"></i> <a href="www.hme-consult.com" target="_blank">www.hme-consult.com</a></p>
+    <button onclick="closeContactPopup()">Close</button>
+  </div>
+
+  <main class="main_section">
+    <div id="about-section">
+      <div class="overview_img">
+        <img src="overview.PNG" alt="">
+      </div>
+      <div class="custom-div paragraph-row">
+        <h2 style="margin-left: 5px;">PROJECT REFERENCES</h2>
+      </div><br>
+      <h5>PROJECT DEVELOPMENT, ENGINEERING, DESIGN AND TECHNICAL SERVICES PROJECTS</h5>
+      <div>
+        <div class="table-container">
+          <div class="row">
+            <div class="col">
+                <div class="table-responsive-custom">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">NO.</th>
+                                <th scope="col">PROJECT</th>
+                                <th scope="col">CUSTOMER</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Combustion Burners Manufacturing Facility business Case and Project Development and Management</td>
+                                <td>ENERGO</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Compressed Wood Pallets Manufacturing Facility Business Case</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Warehouse Integration Company</td>
+                                <td>WIN Company</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>SAF sulfur Plant business Case development</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Nano Coating Plant business Case development</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Electrical Lugs and Earthing</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Medical Bags Plant business Case development and preparations for FEED stage</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>PETROMAX Lubricant plant 1</td>
+                                <td>GGSC Light industry – Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>PETROMAX Lubricant plant 2</td>
+                                <td>GGSC Support industry – Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Masterbatch Polymers Compounds Business Case</td>
+                                <td>Pure Polymers Co</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Ferroalloys Plant Expansion Business Case Project</td>
+                                <td>Royal Commission for Jubail – Educational Center</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      <br>
+      <h5>ENGINEERING AND DESIGN CONSULTING PROJECT REFERENCES</h5>
+      <p>Below are the projects that our staff have participated in the past and delivered .</p>
+      <div>
+        <div class="table-container">
+          <div class="row">
+            <div class="col">
+                <div class="table-responsive-custom">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">NO.</th>
+                                <th scope="col">PROJECT</th>
+                                <th scope="col">CUSTOMER</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>LED design and Engineering Ecoally </td>
+                                <td>RC commsion</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>BICSI - RCDD Review and Certificate</td>
+                                <td>Saudi Aramco - BICSI - RCDD Review Stamp and Certificate</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td> Fire Fighting system engineering and design</td>
+                                <td>Saudi Cement</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Supervision of fire fighting & fire alarm system</td>
+                                <td>Saudi Cement Company</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Gate Access Intersections and Electrical Access Roads Design and Engineering</td>
+                                <td>Alfanar Company</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>BICSI - RCDD Review and Certificate</td>
+                                <td>Saudi Aramco - Communication Scope at
+                                  KRT- 3, KRTJ-1 AND SK-3 Pipeline in Gart
+                                  Corridor</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Plastics Plant Expansion Design and Engineering</td>
+                                <td>OSOS Group</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Smart Plant Electrical SPEL </td>
+                                <td>Saudi Aramco - Upstream Gas Pipelines</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Design and Engineerinf for Sturctal Steel Building for Schools Halls in IMAM University in Riyadh via Alfanar Company</td>
+                                <td>Alfanar Copmany</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Plastics Plant Electrical assessment ,Design and Engineering package</td>
+                                <td>OSOS Group</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Design and Engineering for Acid Gas Furnace Preheater Burners Retrofit project – Saudi Aramco Berri Plant</td>
+                                <td>ENERGO Combustion ( Saudi Aramco Berri Plant)</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Design and Engineering for Ladle Preheater Burner Management System Retrofit – Rajhi Steel Plant – Jeddah</td>
+                                <td>ENERGO Combustion</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Design and Engineering for Boiler Burner Retrofit project – SABIC T&I - Riyadh</td>
+                                <td>ENERGO Combustion</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Design and Engineering for Boiler Burner Retrofit project – SABIC Kayan - Jubail indst.</td>
+                                <td>ENERGO Combustion</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>SAF sulphur Plant business Case development and preparations for FEED stage</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Nano Coating Plant business Case development and preparations for FEED stage</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td>Design and Engineering for Quality and Excellence Plant facilties</td>
+                                <td>Q & E Co</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>Tire Recycling and Pyrolysis Oil Plant business Case development and preparations for FEED stage</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>19</td>
+                                <td>Medical Bags Plant business Case development and preparations for FEED stage</td>
+                                <td>SABIC</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>Private school , Engineering & Construction Supervision</td>
+                                <td>Zain Private Establishment</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>Engineering and design of RC smart schools (alrwad high school)</td>
+                                <td>Royal Commission for Jubail – Educational Center </td>
+                            </tr>
+                            <tr>
+                                <td>22</td>
+                                <td>Engineering and designs, theme design and execution</td>
+                                <td>Royal Commission for Jubail – Educational Center</td>
+                            </tr>
+                            <tr>
+                                <td>23</td>
+                                <td>CEngineering and design of Sabic housing - type 4</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>24</td>
+                                <td>Jubail Investment Land - Jalmudah - Commercial & Residential</td>
+                                <td>Al-Joaib Consulting Engineers</td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>Review of Structural Design and drawing of Safety Training Center and Shop Building</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>26</td>
+                                <td>Design Modification in Residential House</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>Interior design of Sabic housing - type 1</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>Al Rowad Smart school</td>
+                                <td>Royal Commission Schools</td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td>9th School for Girls</td>
+                                <td>Royal Commission for Jubail – Educational Center </td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>Al Deffi School</td>
+                                <td>Royal Commission for Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td>Al Huwaylat School</td>
+                                <td>Royal Commission for Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>Landscape Design of a Private Lounge</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>33</td>
+                                <td>Engineering and Design of Tower (1) in Jubail </td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>34</td>
+                                <td>Engineering and Design of Tower (2) in Jubail</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>35</td>
+                                <td>Warehouse and Admin Building</td>
+                                <td>Osos Advanced Plastic Industries Co.</td>
+                            </tr>
+                            <tr>
+                                <td>36</td>
+                                <td>Warehouse Project</td>
+                                <td>Industrial fortune EST.</td>
+                            </tr>
+                            <tr>
+                                <td>37</td>
+                                <td>Car rent show room</td>
+                                <td>Al wefaq Rent a Car</td>
+                            </tr>
+                            <tr>
+                                <td>38</td>
+                                <td>Admin Office Building</td>
+                                <td>Integrated technical Solution Company Limited</td>
+                            </tr>
+                            <tr>
+                                <td>39</td>
+                                <td>Coffee shop and landscaping</td>
+                                <td>Intercontinental Al Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>40</td>
+                                <td>Jubail Investment Land - Jalmudah - Commercial & Residential</td>
+                                <td>Al-Joaib Consulting Engineers</td>
+                            </tr>
+                            <tr>
+                                <td>41</td>
+                                <td>Review of Structural Design and drawing of Safety Training Center and Shop Building</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>42</td>
+                                <td>Design Modification in Residential House</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>43</td>
+                                <td>Interior design of Sabic housing - type 1 </td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>44</td>
+                                <td>Al Rowad Smart school</td>
+                                <td>Royal Commission Schools</td>
+                            </tr>
+                            <tr>
+                                <td>45</td>
+                                <td>9th School for Girls</td>
+                                <td>Royal Commission for Jubail – Educational</td>
+                            </tr>
+                            <tr>
+                                <td>46</td>
+                                <td>Al Deffi School</td>
+                                <td>Royal Commission for Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>47</td>
+                                <td>Al Huwaylat School</td>
+                                <td>Royal Commission for Jubail</td>
+                            </tr>
+                            <tr>
+                                <td>48</td>
+                                <td>Landscape Design of a Private Lounge</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>49</td>
+                                <td>Engineering and Design of Tower (1) in Jubail</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>50</td>
+                                <td>Engineering and Design of Tower (2) in Jubail</td>
+                                <td>Private</td>
+                            </tr>
+                            <tr>
+                                <td>51</td>
+                                <td>Warehouse and Admin Building</td>
+                                <td>Osos Advanced Plastic Industries Co.</td>
+                            </tr>
+                            <tr>
+                                <td>52</td>
+                                <td>Warehouse Project </td>
+                                <td>Industrial fortune EST.</td>
+                            </tr>
+                            <tr>
+                                <td>53</td>
+                                <td>Car rent show room</td>
+                                <td>Al wefaq Rent a Car</td>
+                            </tr>
+                            <tr>
+                                <td>54</td>
+                                <td>Admin Office Building</td>
+                                <td>Integrated technical Solution Company Limited</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="footer">
+    <p>&copy; 2023 HORIZONME. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/6a1712e8fa.js" crossorigin="anonymous"></script>
+  <script src="script/script.js"></script>
+</body>
+
+</html>

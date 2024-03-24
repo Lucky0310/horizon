@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HORIZONME</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="banner">
+        <div class="banner_box">
+            <h1>HORIZON<span style="color: red;">ME</span></h1>
+        </div>
+        <div>
+            <!-- Your logo here -->
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="services.html" style="color: black;">Technical
+                                    Experience</a>
+                                <a class="dropdown-item" href="project.html" style="color: black;">Project
+                                    Development</a>
+                                <a class="dropdown-item" href="consultation.html" style="color: black;">Consultation</a>
+                                <a class="dropdown-item" href="references.html" style="color: black;">References</a>
+                                <a class="dropdown-item" href="designing.html" style="color: black;">Designing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="partners.html">Partners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="openContactPopup()">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Transparent overlay -->
+    <div id="contact-overlay"></div>
+
+    <!-- Contact popup -->
+    <div id="contact-popup">
+        <h2>Contact Details</h2>
+        <p><i class="fa fa-phone"></i> +966 53 954 8824</p>
+        <p><i class="fa fa-phone"></i> +966 50 590 0738</p>
+        <p><i class="fa fa-envelope"></i> md@ hme-consult.com</p>
+        <p><i class="fa fa-globe"></i> <a href="www.hme-consult.com" target="_blank">www.hme-consult.com</a></p>
+        <button onclick="closeContactPopup()">Close</button>
+    </div>
+
+    <main class="main_section">
+        <div id="about-section">
+            <div class="overview_img">
+                <img src="overview.PNG" alt="">
+            </div>
+            <div class="custom-div paragraph-row">
+                <h2 id="strategy_section"><span style="margin-left: 5px;">ENGINEERING AND DESIGN CONSULTING</span></h2>
+            </div><br>
+            <div>
+                <p>HORIZONME teams have industry related proven experience in providing design and detail
+                    engineering services across multiple disciplines and industries.</p>
+                <p>HORIZONME expertise includes wide areas covering Oil and Gas Industry, Building Services &
+                    Petrochemical sectors. We pride ourselves in providing following services:</p>
+            </div>
+            <div>
+                <ul>
+                    <li><i class="fa fa-caret-right"></i> Engineering services include:</li>
+                    <ul>                        
+                        <li><i class="fa fa-caret-right"></i> Pre-bid Engineering Support</li>
+                        <li><i class="fa fa-caret-right"></i> Design and Detail Engineering</li>
+                        <li><i class="fa fa-caret-right"></i> Conduct Value Improvement Sessions</li>
+                        <li><i class="fa fa-caret-right"></i> Safety Design Sessions</li>
+                        <li><i class="fa fa-caret-right"></i> Construction Support (related to detail engineering)</li>
+                        <li><i class="fa fa-caret-right"></i> As-built Engineering</li>
+                    </ul>
+                    <li><i class="fa fa-caret-right"></i> Technical Manpower Secondment Services</li>
+                    <li><i class="fa fa-caret-right"></i> Industry specific software training services</li>
+                </ul>
+                <p>HORIZONME offers a complete multi-disciplinary engineering solution utilizing advanced software’s
+                    for design, detailing, plant 3D modeling, Smart Plant Electrical & Instrumentation, Building
+                    Information Modeling (BIM) and drafting.</p>
+                <p>HORIZONME provides the complete spectrum of Process, Piping, Mechanical, Civil and Structural,
+                    Electrical, Instrumentation, Building Services, Communication and Architect disciplines. We have
+                    distinguished ourselves in these areas by providing timely and quality detail engineering services
+                    with exhaustive domain knowledge.
+                    </p>
+            </div>
+            <!-- Bootstrap Accordion -->
+            <div class="accordion" id="accordionExample">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Accordion Item 1 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <h5>Process Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 2 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <h5>Mechanical Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 3 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <h5>HAVC <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 4 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <h5>Piping Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 5 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <h5>Electrical Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 6 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <h5>Telecommunication <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Accordion Item 7 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        <h5>Instrument and control Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 8 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingEight">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        <h5>Civil Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 9 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingNine">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        <h5>Architectural Engineering <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 10 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingTen">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                        <h5>Building Services/Architectural Works <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 11 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingEleven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                        <h5>Engineering Studies <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Item 12 -->
+                        <div class="accordion-card">
+                            <div class="card-header" id="headingTwelve">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                        <h5>Project Value Improvement Studies <i class="fa fa-caret-down"></i></h5>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Process</li>
+                                                <li><i class="fa fa-caret-right"></i> Piping</li>
+                                                <li><i class="fa fa-caret-right"></i> Mechanical</li>
+                                                <li><i class="fa fa-caret-right"></i> HVAC</li>
+                                                <li><i class="fa fa-caret-right"></i> Civil and Structural</li>
+                                                <li><i class="fa fa-caret-right"></i> Electrical</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><i class="fa fa-caret-right"></i> Instrumentation</li>
+                                                <li><i class="fa fa-caret-right"></i> Building Services</li>
+                                                <li><i class="fa fa-caret-right"></i> Communication</li>
+                                                <li><i class="fa fa-caret-right"></i> Architect</li>
+                                                <li><i class="fa fa-caret-right"></i> Plumbing & Fire Fighting</li>
+                                                <li><i class="fa fa-caret-right"></i> Interface Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End of Bootstrap Accordion -->
+
+        </div>
+        </div>
+    </main>
+    <div id="footer">
+        <p>&copy; 2023 HORIZONME. All rights reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/6a1712e8fa.js" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
